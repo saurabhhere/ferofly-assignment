@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+.room-hero-section {
+    margin-bottom: 150px;
+}
+
+.room-parallax {
+background-image: url(./rooms.jpg);  
+    min-height: 670px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+
+.room-content-flex {
+    height: 670px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.room-content {
+    background-color: white;
+    padding: 60px;
+    width: 350px
+}
+
+.room-heading {
+    padding-bottom: 25px;
+    font-size: 24px;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.room-desc {
+    font-style: 50px;
+    font-style: italic;
+    word-spacing: 5px;
+    line-height: 1.6;
+    color: #9b9999;
+}
+
+.room-btn {
+    background-color: white;
+    margin-top: 25px;
+    padding: 8px 25px;
+}
+
+.room-btn-flex{
+    display: flex;
+    justify-content: center;
+}
+ 
+.room-btn:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(36,35,35,1);
+    transition: 0.3s all ease-in;
+}

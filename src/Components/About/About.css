@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+.about-hero-section {
+    margin-bottom: 100px;
+}
+.input-field {
+    font-size: 12px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    color:  rgb(155, 152, 152);
+    display: flex;
+
+}
+  .input-flex {
+      display: flex;
+      flex-direction: column;
+      margin: 5px;
+    }
+    
+    .input-flex input {
+        font-family: Montserrat, sans-serif;
+        font-weight: 400;
+        outline: none;
+        padding: 4px 0;
+        padding-left: 5px;
+
+  }
+input[type='date']{
+    width: 280px;
+    text-transform: uppercase;
+}
+
+input[type='date']:hover {
+    cursor: pointer;
+}
+
+
+.adults-input  input{
+    width: 70px;
+    padding: 5px 0;
+    padding-left: 5px;
+}
+
+.kids-input  input{
+    width: 70px;
+    padding: 5px 0;
+    padding-left: 5px;
+
+}
+
+.search-btn {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+
+    background-color: rgb(36,35,35,1);
+    color: #b9b6b6;
+    text-align: center;
+    width: 140px;
+    height: 30px;
+    position: relative;
+    top: 19px;
+    cursor: pointer;
+}
+
+.about-content {
+    
+padding: 150px 30px;    
+margin: auto;
+    text-align: center;
+    width: 585px;
+}
+
+.about-heading {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    color:  rgb(68, 66, 66);
+    font-size: 24px;
+    margin: 50px;
+}
+
+.about-desc {
+    font-style: 50px;
+    font-style: italic;
+    word-spacing: 5px;
+    line-height: 1.6;
+    color: #9b9999;
+}

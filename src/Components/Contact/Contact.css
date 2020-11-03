@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.contact-hero-section {
+    font-family: Montserrat, sans-serif;
+    margin-top: 100px;
+    background-color: rgb(226, 224, 224);
+    padding: 70px;
+}
+
+.contact-heading {
+    margin-bottom: 20px;
+    color: rgb(68,66,66);
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.contact-form {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-flex {
+    padding: 10px 40px 20px 20px ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-flex .info {
+    margin-bottom: 40px;
+    font-style: italic;
+    word-spacing: 5px;
+    line-height: 1.6;
+    color: #9b9999;
+}
+
+.input-half {
+    font-family: Roboto-Condensed, sans-serif;
+    font-weight: 400;
+    outline: none;
+    padding: 8px 12px;
+    margin: 15px;
+    margin-left: 115px;
+    width: 290px;
+}
+.input-half-email {
+    font-family: Roboto-Condensed, sans-serif;
+    font-weight: 400;
+    outline: none;
+    padding: 8px 12px;
+    margin: 15px;
+    width: 290px;
+}
+.input-full {
+    font-family: Roboto-Condensed, sans-serif;
+    font-weight: 400;
+    padding: 8px 12px;
+    outline: none;
+    width: 611px;
+    margin-left: 115px;
+}
+
+.msg-box {
+    font-family: Roboto-Condensed, sans-serif;
+    font-weight: 400;
+    width: 611px;
+    outline: none;
+    padding: 8px 12px;
+    margin: 15px 0 15px 115px;
+    height: 180px;
+}
+
+.send-btn {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 611px;
+    margin-left: 115px;
+    text-align: center;
+    color: white;
+    background-color: rgba(36, 35, 35, 1);
+    height: 50px;
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+.services-hero-section {
+    font-family: Montserrat, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.services-heading {
+
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.services-grid {
+    margin: 25px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template: repeat(2, 250px);
+}
+
+.services-content {
+    height: 250px;
+    text-align: center;
+}
+
+.services-icon {
+    transform: scale(2);
+}
+
+.services-topline {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 20px 30px 20px;
+}
+
+.services-desc {
+    font-style: italic;
+    word-spacing: 5px;
+    line-height: 1.6;
+    color: #9b9999;
+}

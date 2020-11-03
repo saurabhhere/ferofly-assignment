@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+.home-heading {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ferofly-heading {
+    font-size: 48px;
+    font-family: Satisfy,Playfair-Display,sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #242323;
+}
+
+.heading-desc {
+    font-size: 28px;
+    color: #242323;
+    font-family: Satisfy,Playfair-Display,sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    padding: 5px;
+    z-index: 2;
+    background-color: white;
+}
+.parallax {
+    margin-bottom: 80px;
+background-image: url(https://www.thebeverlyhillsbali.com/storage/app/uploads/public/5d5/e51/1e8/5d5e511e8b198775511780.jpg);  
+min-height: 550px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .home-hr{
+      z-index: -1;
+      position: relative;
+      top: -25px;
+      width: 280px;
+      color: black;
+      border: 1px solid black;
+  }
