@@ -25,8 +25,7 @@ function Navbar() {
     useEffect(() => {
         showButton();
     }, []);
-
-    // every time we resizes the window it runs the showButton function & set Button accordingly
+    
     window.addEventListener('resize', showButton);
 
     return (

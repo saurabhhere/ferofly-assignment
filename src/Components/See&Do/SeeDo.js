@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './SeeDo.css';
-import {FaQuoteLeft} from 'react-icons/fa'
+import { FaQuoteLeft } from 'react-icons/fa'
 
 class SeeDo extends Component {
     constructor(props) {
@@ -19,19 +19,19 @@ class SeeDo extends Component {
             if (this.state.content == "") {
                 this.setState({ content: this.state.content1 })
             }
-            else if (this.state.content == this.state.content1){
+            else if (this.state.content == this.state.content1) {
                 console.log('content1')
-                this.setState({ content: this.state.content2 });      
+                this.setState({ content: this.state.content2 });
             }
-            else if (this.state.content == this.state.content2){
+            else if (this.state.content == this.state.content2) {
                 console.log('content2')
-                this.setState({ content: this.state.content3 });      
+                this.setState({ content: this.state.content3 });
             }
-            else if (this.state.content == this.state.content3){
+            else if (this.state.content == this.state.content3) {
                 console.log('content3')
-                this.setState({content: this.state.content1 });      
+                this.setState({ content: this.state.content1 });
             }
-            console.log('Content',this.state.content)
+            console.log('Content', this.state.content)
         }, 3000)
     }
     render() {
@@ -76,22 +76,15 @@ class SeeDo extends Component {
                             <div className="see_do-content-flex">
                                 <div className="see_do-review-content">
                                     <div className='see_do-review-heading'>Guest Reviews</div>
-                                    <div className='quote-mark'><FaQuoteLeft/></div>
+                                    <div className='quote-mark'><FaQuoteLeft /></div>
                                     <div className="review">
                                         {this.state.content}
                                     </div>
                                     <div className='see_do-btn-flex'>
-                                      
                                     </div>
-
                                 </div>
-                                
-
                             </div>
-
                         </div>
-
-
                     </div>
                 </div>
             </>

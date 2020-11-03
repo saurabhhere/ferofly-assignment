@@ -9,7 +9,7 @@ import Rooms from './Components/Rooms/Rooms';
 import SeeDo from './Components/See&Do/SeeDo';
 import Services from './Components/Services/Services';
 import { BsFillChatDotsFill } from 'react-icons/bs';
-import {FaTripadvisor, FaFacebookF, FaInstagram} from 'react-icons/fa';
+import { FaTripadvisor, FaFacebookF, FaInstagram } from 'react-icons/fa';
 
 function App() {
   return (
@@ -27,11 +27,11 @@ function App() {
       <Contact />
       <Footer />
       <div className='social-logo-flex'>
-      <div className='logo-container'>
-        <div className='social-logo trip-advisor'><FaTripadvisor/></div>
-        <div className='social-logo facebook'><FaFacebookF/></div>
-        <div className='social-logo instagram'><FaInstagram /></div>
-      </div>
+        <div className='logo-container'>
+          <div className='social-logo trip-advisor'><FaTripadvisor /></div>
+          <div className='social-logo facebook'><FaFacebookF /></div>
+          <div className='social-logo instagram'><FaInstagram /></div>
+        </div>
       </div>
     </div>
   );

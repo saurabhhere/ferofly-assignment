@@ -12,8 +12,6 @@ function Home() {
                     <hr className='home-hr' ></hr>
                 </div>
                 <div className="parallax"></div>
-
-
                 </div>
             </div>
         </>

@@ -8,7 +8,6 @@ function Contact() {
                 <div className='container'>
                     <div className='contact-heading'>
                     Contact Us
-                        {/* <h1 className='heading'>Contact Us</h1> */}
                     </div>
                     <div className="info-flex">
                         <div className='info'>
