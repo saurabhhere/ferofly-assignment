@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, { Component} from 'react';
 import './Gallery.css';
 import aa from './1a.png';
 import ab from './1b.png';

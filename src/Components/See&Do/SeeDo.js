@@ -16,18 +16,18 @@ class SeeDo extends Component {
 
     makeTimer = () => {
         setInterval(() => {
-            if (this.state.content == "") {
+            if (this.state.content === "") {
                 this.setState({ content: this.state.content1 })
             }
-            else if (this.state.content == this.state.content1) {
+            else if (this.state.content === this.state.content1) {
                 console.log('content1')
                 this.setState({ content: this.state.content2 });
             }
-            else if (this.state.content == this.state.content2) {
+            else if (this.state.content === this.state.content2) {
                 console.log('content2')
                 this.setState({ content: this.state.content3 });
             }
-            else if (this.state.content == this.state.content3) {
+            else if (this.state.content === this.state.content3) {
                 console.log('content3')
                 this.setState({ content: this.state.content1 });
             }
