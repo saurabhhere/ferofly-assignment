@@ -8,7 +8,7 @@ class SeeDo extends Component {
         this.state = {
             content1: "I'm a testimonal. Click to edit me and add text that says something nice about you and your services",
             content2: "I'm a paragraph. Click here to add your own text and edit me.",
-            content3: "I'm a paragraph. Click here to add your own text and edit me. I'm a great place for you to tell a story and let your users know a little more about you.",
+            content3: "I'm a great place for you to tell a story and let your users know a little more about you. Click here to add your own text and edit me.",
             content: ""
         }
         this.makeTimer();
